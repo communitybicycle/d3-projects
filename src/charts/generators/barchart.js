@@ -79,7 +79,7 @@ export default async function generateBarChart() {
             .duration(100)
             .style("opacity", 0.9);
           tooltipDiv
-            .html(d[0] + "<br/>" + `$${d[1]} billion`)
+            .html(`${d[0]}<br/>$${d[1]} billion`)
             .style("left", d3.event.pageX + 15 + "px")
             .style("top", d3.event.pageY - 80 + "px");
           tooltipDiv.attr("data-date", d[0]).attr("data-gdp", d[1]);

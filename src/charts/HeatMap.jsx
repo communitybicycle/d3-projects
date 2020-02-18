@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import useStyles from "./HeatMapStyles";
 import Paper from "@material-ui/core/Paper";
 

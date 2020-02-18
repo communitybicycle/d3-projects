@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import useStyles from "./BarChartStyles";
 import generateBarChart from "./generators/barchart";
 import Paper from "@material-ui/core/Paper";
@@ -22,6 +22,7 @@ function BarChart(props) {
             <a
               href="http://www.bea.gov/national/pdf/nipaguid.pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               http://www.bea.gov/national/pdf/nipaguid.pdf
             </a>
