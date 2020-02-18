@@ -7,38 +7,30 @@ const useStyles = makeStyles(() => ({
     height: "800px",
     padding: "0",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
+    position: "relative"
   },
   title: {
-    height: "10%",
+    height: "15%",
     display: "flex",
     justifyContent: "center",
-    alignItems: "flex-end",
+    alignItems: "center",
+    flexDirection: "column",
     "& h1": {
+      margin: "0",
+      padding: "0"
+    },
+    "& p": {
       margin: "0",
       padding: "0"
     }
   },
   chart: {
-    height: "80%",
+    height: "85%",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
-  },
-  footer: {
-    height: "10%",
-    display: "flex",
-    justifyContent: "center",
-    fontWeight: "400",
     alignItems: "center",
-    color: "#333",
-    "& a": {
-      textDecoration: "none",
-      color: "#333",
-      "&:hover": {
-        color: "#888"
-      }
-    }
+    paddingBottom: "50px"
   },
   tooltip: {
     position: "absolute",
@@ -50,7 +42,34 @@ const useStyles = makeStyles(() => ({
     background: "lightsteelblue",
     border: "0px",
     pointerEvents: "none",
-    opacity: 0
+    opacity: 0,
+    zIndex: 10
+  },
+  legendDiv: {
+    display: "flex",
+    alignItems: "center",
+    "& p": {
+      marginRight: "10px",
+      fontSize: "14px"
+    }
+  },
+  legend: {
+    position: "absolute",
+    right: "100px",
+    bottom: "350px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end"
+  },
+  orangeSquare: {
+    width: "30px",
+    height: "30px",
+    backgroundColor: "rgba(255, 165, 0, 0.7)"
+  },
+  blueSquare: {
+    width: "30px",
+    height: "30px",
+    backgroundColor: "rgba(70, 130, 180, 0.7)"
   }
 }));
 
