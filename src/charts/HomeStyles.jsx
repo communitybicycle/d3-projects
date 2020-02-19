@@ -40,6 +40,12 @@ const useStyles = makeStyles(() => ({
       fontSize: "18px",
       color: "green"
     }
+  },
+  link: {
+    color: "black",
+    "&:visited": {
+      color: "black"
+    }
   }
 }));
 

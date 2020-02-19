@@ -38,7 +38,13 @@ function Home(props) {
       <footer className={classes.footer}>
         <Typography variant="subtitle1">
           Made with <FavoriteIcon /> by{" "}
-          <a href="https://communitybicycle.github.io/">Hal S</a>.
+          <a
+            href="https://communitybicycle.github.io/"
+            className={classes.link}
+          >
+            Hal S
+          </a>
+          .
         </Typography>
       </footer>
     </Paper>
