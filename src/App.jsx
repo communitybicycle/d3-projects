@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
-import BarChart from "./charts/BarChart";
-import ScatterplotGraph from "./charts/ScatterplotGraph";
-import HeatMap from "./charts/HeatMap";
-import Home from "./charts/Home";
+import BarChart from "./pages/BarChart";
+import ScatterplotGraph from "./pages/ScatterplotGraph";
+import HeatMap from "./pages/HeatMap";
+import Home from "./pages/Home";
 
 const useStyles = makeStyles(() => ({
   root: {
