@@ -3,43 +3,36 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles(() => ({
   document: {
     backgroundColor: "#fff",
-    width: "1000px",
+    width: "1400px",
     height: "800px",
     padding: "0",
     display: "flex",
     flexDirection: "column"
   },
   title: {
-    height: "10%",
+    height: "15%",
     display: "flex",
     justifyContent: "center",
-    alignItems: "flex-end",
+    alignItems: "center",
+    alignContent: "center",
+    flexDirection: "column",
     "& h1": {
+      margin: "0",
+      padding: "0"
+    },
+    "& p": {
       margin: "0",
       padding: "0"
     }
   },
   chart: {
-    height: "80%",
+    height: "85%",
     display: "flex",
-    justifyContent: "center",
-    alignItems: "center"
-  },
-  footer: {
-    height: "10%",
-    display: "flex",
-    justifyContent: "center",
-    fontWeight: "400",
+    justifyContent: "flex-start",
     alignItems: "center",
-    color: "#333",
-    "& a": {
-      textDecoration: "none",
-      color: "#333",
-      "&:hover": {
-        color: "#888"
-      }
-    }
+    flexDirection: "column"
   },
+
   tooltip: {
     position: "absolute",
     textAlign: "center",

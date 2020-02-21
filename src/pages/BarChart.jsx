@@ -7,7 +7,7 @@ function BarChart(props) {
   const classes = useStyles();
   useEffect(() => {
     generateBarChart();
-  });
+  }, []);
   return (
     <div>
       <div className={classes.tooltip} id="bar-chart-tooltip" />

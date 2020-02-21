@@ -7,7 +7,7 @@ function ScatterplotGraph(props) {
   const classes = useStyles();
   useEffect(() => {
     generateScatterplotGraph();
-  });
+  }, []);
   return (
     <div>
       <div className={classes.tooltip} id="scatterplot-tooltip" />

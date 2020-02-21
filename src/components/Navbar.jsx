@@ -47,9 +47,7 @@ export default function ButtonAppBar() {
             {/*<BarChartIcon />*/}
 
             <Typography variant="h6" className={classes.title}>
-              <Link exact to="/">
-                Data Projects
-              </Link>
+              <Link to="/">Data Projects</Link>
             </Typography>
             <div className={classes.menuItem}>
               <Typography variant="body1">

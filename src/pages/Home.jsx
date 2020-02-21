@@ -6,6 +6,7 @@ import useStyles from "./HomeStyles";
 
 function Home(props) {
   const classes = useStyles();
+
   return (
     <Paper elevation={3} className={classes.document}>
       <div className={classes.title}>

@@ -24,16 +24,15 @@ function App() {
       <Navbar />
       <div className={classes.root}>
         <Switch>
+          <Route exact path="/bar-chart" render={() => <BarChart />} />
+          <Route
+            exact
+            path="/scatterplot-graph"
+            render={() => <ScatterplotGraph />}
+          />
+          <Route exact path="/heat-map" render={() => <HeatMap />} />
+
           <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/bar-chart">
-            <BarChart />
-          </Route>
-          <Route exact path="/scatterplot-graph">
-            <ScatterplotGraph />
-          </Route>
-          <Route exact path="/heat-map">
-            <HeatMap />
-          </Route>
         </Switch>
       </div>
     </div>
