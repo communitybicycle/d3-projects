@@ -81,6 +81,17 @@ export default function ButtonAppBar() {
                 </NavLink>
               </Typography>
             </div>
+            <div className={classes.menuItem}>
+              <Typography variant="body1">
+                <NavLink
+                  exact
+                  to="/choropleth-map"
+                  activeStyle={activeLinkStyle}
+                >
+                  Choropleth Map
+                </NavLink>
+              </Typography>
+            </div>
           </Toolbar>
         </Container>
       </AppBar>

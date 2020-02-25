@@ -6,6 +6,7 @@ import BarChart from "./pages/BarChart";
 import ScatterplotGraph from "./pages/ScatterplotGraph";
 import HeatMap from "./pages/HeatMap";
 import Home from "./pages/Home";
+import ChoroplethMap from "./pages/ChoroplethMap";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -31,6 +32,11 @@ function App() {
             render={() => <ScatterplotGraph />}
           />
           <Route exact path="/heat-map" render={() => <HeatMap />} />
+          <Route
+            exact
+            path="/choropleth-map"
+            render={() => <ChoroplethMap />}
+          />
 
           <Route exact path="/" render={() => <Home />} />
         </Switch>
