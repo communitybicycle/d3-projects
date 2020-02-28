@@ -12,10 +12,12 @@ import Treemap from "./pages/Treemap";
 const useStyles = makeStyles(() => ({
   root: {
     backgroundColor: "lightgrey",
-    height: "calc(100vh - 64px)",
+    height: "100%",
+    paddingTop: "34px",
+    paddingBottom: "34px",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "flex-start"
   }
 }));
 
