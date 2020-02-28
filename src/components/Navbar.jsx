@@ -92,6 +92,13 @@ export default function ButtonAppBar() {
                 </NavLink>
               </Typography>
             </div>
+            <div className={classes.menuItem}>
+              <Typography variant="body1">
+                <NavLink exact to="/treemap" activeStyle={activeLinkStyle}>
+                  Treemap
+                </NavLink>
+              </Typography>
+            </div>
           </Toolbar>
         </Container>
       </AppBar>
