@@ -11,8 +11,9 @@ import Treemap from "./pages/Treemap";
 
 const useStyles = makeStyles(() => ({
   root: {
+    margin: 0,
     backgroundColor: "lightgrey",
-    height: "100%",
+    minHeight: "calc(100% - 132px)",
     paddingTop: "34px",
     paddingBottom: "34px",
     display: "flex",

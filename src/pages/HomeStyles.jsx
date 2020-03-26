@@ -26,9 +26,11 @@ const useStyles = makeStyles(() => ({
     flex: 1
   },
   leftColumn: {
-    width: "60%"
+    width: "60%",
+    paddingRight: "15px"
   },
   rightColumn: {
+    paddingLeft: "15px",
     width: "40%"
   },
   footer: {
